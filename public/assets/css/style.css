@@ -1,0 +1,149 @@
+body{
+    background-color: white;
+}
+.example-wrapper { 
+    margin: 1em auto; 
+    max-width: 800px; 
+    width: 95%; 
+    font: 18px/1.5 sans-serif; 
+}
+.example-wrapper code { 
+    background: #F5F5F5; 
+    padding: 2px 6px; 
+}
+
+label{
+    display: block;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select{
+    width: 70%;
+    padding: 8px;
+}
+
+button,
+input[type="submit"]{
+    padding: 8px;
+    margin-top: 15px;
+    background-color: yellowgreen;
+    color:white;
+    border: 1px solid yellowgreen;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+button:hover,
+input[type="submit"]:hover{
+    
+    background-color:green;
+    
+}
+
+#header{
+
+    margin: 1em auto; 
+    max-width: 800px; 
+    width: 95%; 
+    font: 18px/1.5 sans-serif; 
+
+}
+
+#menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    background-color: #eee;
+    line-height: 50px;
+}
+
+#menu li{
+    display: block;
+    float:left;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#menu li.right{
+    float: right;
+    
+}
+
+
+#menu li:hover{
+    background: #444;
+    
+}
+
+#menu li:hover a{
+    color:white;
+}
+
+#menu a{
+    display: block;
+    text-decoration: none;
+    color: #444;
+    transition: all 300ms;
+}
+
+.clearFix{
+    float: none;
+    clear: both;
+}
+
+table{
+    width: 100%;
+}
+
+table th, 
+table td{
+    background-color: rgb(202, 196, 196);
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 1px solid #444;
+    text-align: center;
+}
+
+table td{
+    background-color: rgb(159, 236, 247);
+}
+
+.buttons a {
+    text-decoration: none; 
+    border: 1px solid green;
+    padding:10px;
+    color: white;
+    background-color: green;
+}
+
+.buttons{
+    width: 33%;
+}
+
+.buttons .btn-edit{
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.buttons .btn-delete{
+    background-color: red;
+    border: 1px solid red;
+}
+
+.data-task{
+    color: gray;
+}
+
